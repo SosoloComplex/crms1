@@ -34,7 +34,7 @@
                 </div>
 
                 <div class="navbar-down">
-                    <a href="index.php">Home</a>
+                    <a href="index.html">Home</a>
                     <a href="department.php">Department</a>
                     <a href="login.php">Login</a>
                 </div>
