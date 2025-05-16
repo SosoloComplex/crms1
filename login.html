@@ -62,7 +62,7 @@
     </style>
 </head>
 <body>
-<?php
+<!-- <?php
 session_start();
 include 'db.php';  // Make sure the path to db.php is correct
 
@@ -112,13 +112,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['login'])) {
     $stmt->close();
 }
 ?>
-
+ -->
 
     <form action="" method="post">
         <center><img src="PermanentSecretary/EAGT LOGO.jpg" style="height:90px;width:90px;border-radius:200px;borded:1px solid;" alt=""></center>
         <center><div style="color:yellow;"> LOGIN </div></center><br>
-        <?php if (isset($login_error)) { echo "<p>$login_error</p>"; } ?>
-        <label>Username:</label>
+<!--         <?php if (isset($login_error)) { echo "<p>$login_error</p>"; } ?> -->
+        <label>Username:</label> 
         <input type="text" name="username" required><br>
         <label>Password:</label>
         <input type="password" name="password" required><br>
